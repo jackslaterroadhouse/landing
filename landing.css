@@ -1,0 +1,78 @@
+			@import url('https://fonts.googleapis.com/css?family=Cabin');
+			@import url('https://fonts.googleapis.com/css?family=Raleway');
+			@import url('https://fonts.googleapis.com/css?family=Allerta');
+			@import url('https://fonts.googleapis.com/css?family=Lato');
+
+	body {
+			margin-left: 0px;/*creates open space and tells all elements within to begin 400px left*/
+			background: #232B2B url("images/hotrod02.png") no-repeat top left;/*Hot Rod picture and BG color*/
+			font-family: 'Raleway', Helvetica, Arial, sans-serif;/*base font style for page*/
+			max-width: 1200px;/*stops scaling of page width at 1200px*/
+
+		}
+		a {/*addresses properties of all "a" links*/
+		    color: #E3AE57;
+		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		}
+		a:visited {
+		    color: #DC3D24;
+		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		}
+		a:hover {
+		    color: #E9967A;
+		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		}
+		a:focus {
+		    color: #F5F5DC;
+		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		}
+		a:active {
+		    color: #F5F5DC;
+		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		}
+		h1 { /*addresses properties of all "h1" text*/
+
+			color: #DC3D24;
+			font-family: "Cabin", "Helvetica", Arial, sans-serif;
+			text-decoration-line: underline;
+			font-size: 72px;
+			text-shadow: 1px 1px black;/*Adds Shadow*/
+			}
+		h2 { /*addresses properties of all "h2" text*/
+			/*text-decoration-line: underline;*/
+			font-family: "Cabin", "Helvetica", Arial, sans-serif;
+			font-size: 36px;
+		}
+		.headsection {
+			display: flex;
+			flex-direction: column;
+		}
+
+
+		.head1 {
+			background-color: #FFFFFF;
+			background-repeat: no-repeat;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #808080;
+			max-height: 200px;
+			max-width: 1000px;				
+		}
+		.head2 {
+			background-color: #FFFFFF;
+			background-repeat: no-repeat;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #808080;
+			max-height: 200px;
+			max-width: 1000px;			
+		}
+		.head3 {
+			background-color: #FFFFFF;
+			background-repeat: no-repeat;
+			border-style: solid;
+			border-width: 2px;
+			border-color: #808080;
+			max-height: 200px;
+			max-width: 1000px;			
+		}
