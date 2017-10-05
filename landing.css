@@ -11,24 +11,29 @@
 
 		}
 		a {/*addresses properties of all "a" links*/
-		    color: #E3AE57;
+		    color: #146EB4;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		    font-size: 22px;
 		}
 		a:visited {
-		    color: #DC3D24;
+		    color: #146EB4;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+			font-size: 22px;
 		}
 		a:hover {
-		    color: #E9967A;
+		    color: #146EB4;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+			font-size: 22px;
 		}
 		a:focus {
-		    color: #F5F5DC;
+		    color: #146EB4;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+			font-size: 22px;
 		}
 		a:active {
-		    color: #F5F5DC;
+		    color: #146EB4;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+			font-size: 22px;
 		}
 		h1 { /*addresses properties of all "h1" text*/
 
@@ -47,10 +52,8 @@
 			display: flex;
 			flex-direction: column;
 		}
-
-
 		.head1 {
-			background-color: #FFFFFF;
+			background-color: #232F3E;
 			background-repeat: no-repeat;
 			border-style: solid;
 			border-width: 2px;
@@ -59,20 +62,40 @@
 			max-width: 1000px;				
 		}
 		.head2 {
+			display: flex;
+			flex-direction:row;
 			background-color: #FFFFFF;
-			background-repeat: no-repeat;
-			border-style: solid;
-			border-width: 2px;
+			background-repeat: no-repeat;	
 			border-color: #808080;
-			max-height: 200px;
+			max-height: 700px;
 			max-width: 1000px;			
 		}
 		.head3 {
 			background-color: #FFFFFF;
 			background-repeat: no-repeat;
 			border-style: solid;
-			border-width: 2px;
+			border-width: 0px;
 			border-color: #808080;
-			max-height: 200px;
+			max-height: 180px;
 			max-width: 1000px;			
+		}
+		.navbar a {
+			margin-left: 60px;
+			display: flex;
+			flex-direction: row;
+			float: left;
+			display: block;
+			padding: 14px 46px;
+			color: #232F3E;
+		    text-align: center;
+		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		    font-size: 18px
+		}
+		.navbar a:hover {
+			background-color: #232F3E;
+			color: #E3AE57;
+		}
+		.navbar a:active {
+			background-color: #232F3E;
+			color: #E3AE57;
 		}
