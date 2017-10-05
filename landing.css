@@ -53,13 +53,13 @@
 			position: fixed;
 			display: flex;
 			flex-direction: column;
-			width: 1665px;
+			width: 1668px;
 		}
 		.head1 {
 			background-color: #232F3E;
 			background-repeat: no-repeat;
 			max-height: 200px;
-			width: 1665px;			
+			width: 1668px;			
 		}
 		.head2 {
 			top: 200px;
@@ -69,9 +69,15 @@
 			background-repeat: no-repeat;	
 			border-color: #808080;
 			max-height: 700px;
-			width: 1665px;			
+			width: 1668px;			
 		}
 		.head3 {
+			top: 900px;
+			background-color: #FFFFFF;
+			background-repeat: no-repeat;
+			max-height: 180px;			
+		}
+		.head4 {
 			top: 900px;
 			background-color: #FFFFFF;
 			background-repeat: no-repeat;
@@ -104,32 +110,41 @@
 			top: 1080px;
 			display: flex;
 			flex-direction: row;
-			background-color: #FF9900;
-			width: 1200px;
+			background-color: #FFFFFF;
+			width: 1668px;
 		}
 		.button1 {
-			background-color: #FF9900					;
+			background-color: #FFFFFF;
 		    text-align: center;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
 		    font-size: 18px
-		    width: 33%;
-		    height: 500px;
+		    width: 556px;
+		    height: 300px;
+		    border-width: 1px;
+			border-style: solid;
+			border-color: #FF9900;
 		}
 		.button2 {
-			background-color: #FF9900					;
+			background-color: #FFFFFF;
 		    text-align: center;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
 		    font-size: 18px
-		    width: 33%;
-		    height: 500px;
+		    width: 556px;
+		    height: 300px;
+		    border-width: 1px;
+			border-style: solid;
+			border-color: #FF9900;
 		}
 		.button3 {
-			background-color: #FF9900					;
+			background-color: #FFFFFF;
 		    text-align: center;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
 		    font-size: 18px
-		    width: 33%;
-		    height: 500px;
+		    width: 556px;
+		    height: 300px;
+		    border-width: 1px;
+			border-style: solid;
+			border-color: #FF9900;
 		 }
 		.mainbuttons > .button1 {order:1;}
 		.mainbuttons > .button2 {order:2;}
