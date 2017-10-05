@@ -108,14 +108,6 @@
 			background-color: #232F3E;
 			color: #E3AE57;
 		}
-		.bodysection {
-			margin-left: 100px
-			background-color: #FF9900;
-		}
-		.body1 {
-			background-color: #FF9900;
-			height: 14px;
-		}
 		.mainbuttons {
 			top: 1080px;
 			display: flex;
@@ -156,6 +148,21 @@
 			border-style: solid;
 			border-color: #FF9900;
 		}
+		
 		.mainbuttons > .button1 {order:1;}
 		.mainbuttons > .button2 {order:2;}
 		.mainbuttons > .button3 {order:3;}
+
+		.bodysection {
+			margin-left: 100px
+			background-color: #FF9900;
+		}
+		.body1 {
+			background-color: #FF9900;
+			height: 14px;
+		}
+		.body2 {
+			background-color: #FFFFFF;
+			max-height: 120px;
+			color: #FF9900;
+		}
