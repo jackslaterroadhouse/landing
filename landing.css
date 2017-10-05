@@ -99,3 +99,16 @@
 			background-color: #232F3E;
 			color: #E3AE57;
 		}
+		.mainbuttons {
+			margin-left: 60px;
+			display: flex;
+			flex-direction: row;
+			float: left;
+			display: block;
+			padding: 14px 46px;
+			color: #FF9900					;
+		    text-align: center;
+		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		    font-size: 18px
+		}
+		.
