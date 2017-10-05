@@ -100,15 +100,35 @@
 			color: #E3AE57;
 		}
 		.mainbuttons {
-			margin-left: 60px;
 			display: flex;
 			flex-direction: row;
-			float: left;
-			display: block;
-			padding: 14px 46px;
-			color: #FF9900					;
+			background-color: #FF9900;
+			width: 1200px;
+		}
+		.button1 {
+			background-color: #FF9900					;
 		    text-align: center;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
 		    font-size: 18px
+		    width: 33%;
+		    height: 500px;
 		}
-		.
+		.button2 {
+			background-color: #FF9900					;
+		    text-align: center;
+		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		    font-size: 18px
+		    width: 33%;
+		    height: 500px;
+		}
+		.button3 {
+			background-color: #FF9900					;
+		    text-align: center;
+		    font-family: 'Lato', Helvetica, Arial, sans-serif;
+		    font-size: 18px
+		    width: 33%;
+		    height: 500px;
+		 }
+		.mainbuttons > .button1 {order:1;}
+		.mainbuttons > .button2 {order:2;}
+		.mainbuttons > .button3 {order:3;}
