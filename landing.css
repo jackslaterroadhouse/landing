@@ -75,13 +75,16 @@
 			top: 900px;
 			background-color: #FFFFFF;
 			background-repeat: no-repeat;
-			max-height: 180px;			
+			align-items: center;			
 		}
 		.head4 {
 			top: 900px;
 			background-color: #FFFFFF;
 			background-repeat: no-repeat;
 			max-height: 180px;			
+		}
+		#vidwin {
+			margin-left: 420px;
 		}
 		.navbar a {
 			top: 1080px;
