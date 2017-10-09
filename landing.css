@@ -48,6 +48,11 @@
 			font-family: "Cabin", "Helvetica", Arial, sans-serif;
 			font-size: 36px;
 		}
+		h3 {
+			font-family: "Cabin", "Helvetica", Arial, sans-serif;
+			font-size: 36px;
+			color: #FF9900;
+		}
 		.headsection {
 			margin-left: 100px;
 			display: flex;
@@ -163,6 +168,5 @@
 		}
 		.body2 {
 			background-color: #FFFFFF;
-			max-height: 120px;
 			color: #FF9900;
 		}
