@@ -42,7 +42,7 @@
 			text-decoration-line: underline;
 			font-size: 72px;
 			text-shadow: 1px 1px black;/*Adds Shadow*/
-			}
+		}
 		h2 { /*addresses properties of all "h2" text*/
 			/*text-decoration-line: underline;*/
 			font-family: "Cabin", "Helvetica", Arial, sans-serif;
@@ -51,19 +51,29 @@
 		h3 {
 			font-family: "Cabin", "Helvetica", Arial, sans-serif;
 			font-size: 36px;
-			color: #FF9900;
+			color: #FFFFFF;
+		}
+		h4 {
+			font-family: "Lato", "Helvetica", Arial, sans-serif;
+			font-size: 18px;
+			color: #FFFFFF;
+		}
+		h5 {
+			font-family: "Lato", "Helvetica", Arial, sans-serif;
+			font-size: 12px;
+			color: #FFFFFF;
 		}
 		.headsection {
 			margin-left: 100px;
 			display: flex;
 			flex-direction: column;
-			width: 1668px;
+			width: 1663px;
 		}
 		.head1 {
 			background-color: #232F3E;
 			background-repeat: no-repeat;
 			max-height: 200px;
-			width: 1668px;			
+			width: 1663px;			
 		}
 		.head2 {
 			top: 200px;
@@ -71,24 +81,56 @@
 			flex-direction:row;
 			background-color: #FFFFFF;
 			background-repeat: no-repeat;	
-			border-color: #808080;
+			border-left: 3px solid #FF9900;
+			border-right: 3px solid #FF9900;
 			max-height: 700px;
-			width: 1668px;			
+			width: 1663px;			
 		}
 		.head3 {
+			display: flex;
+			flex-direction: row;
 			top: 900px;
 			background-color: #FFFFFF;
 			background-repeat: no-repeat;
-			align-items: center;			
+			align-items: center;
+			border-left: 3px solid #FF9900;
+			border-right: 3px solid #FF9900;
+			width: 1663px;
 		}
 		.head4 {
 			top: 900px;
 			background-color: #FFFFFF;
 			background-repeat: no-repeat;
-			max-height: 180px;			
+			max-height: 180px;
+			border-left: 3px solid #FF9900;
+			border-right: 3px solid #FF9900;			
+			width: 1663px;
 		}
-		#vidwin {
-			margin-left: 420px;
+		.headsection > .head1 {order:1;}
+		.headsection > .head2 {order:4;}
+		.headsection > .head3 {order:3;}
+		.headsection > .head4 {order:2;}
+		.headsection > .head5 {order:5;}
+		.headsection > .mainbuttons {order:6;}
+		.headsection > .bodysection {order:7;}
+
+		.head3 > .#vidwin1 {order:1;}
+		.head3 > .#vidwin2 {order:2;}
+		.head3 > .#vidwin3 {order:3;}
+
+		#vidwin1 {
+			width: 430px;
+			height: 450px;
+		}
+		#vidwin2 {
+			width: 802px;
+			height: 450px;
+
+		}
+		#vidwin3 {
+			width: 431px;
+			height: 450px;
+
 		}
 		.navbar a {
 			top: 1080px;
@@ -118,25 +160,26 @@
 			display: flex;
 			flex-direction: row;
 			background-color: #FFFFFF;
-			width: 1668px;
+			width: 1px;
 		}
 		.button1 {
 			background-color: #FFFFFF;
 		    text-align: center;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
 		    font-size: 18px
-		    width: 556px;
+		    width: 5px;
 		    height: 300px;
-		    border-width: 1px;
+			border-width: 1px;
 			border-style: solid;
 			border-color: #FF9900;
+			border-left: 3px solid #FF9900;
 		}
 		.button2 {
 			background-color: #FFFFFF;
 		    text-align: center;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
 		    font-size: 18px
-		    width: 556px;
+		    width: 5px;
 		    height: 300px;
 		    border-width: 1px;
 			border-style: solid;
@@ -147,11 +190,13 @@
 		    text-align: center;
 		    font-family: 'Lato', Helvetica, Arial, sans-serif;
 		    font-size: 18px
-		    width: 556px;
+		    width: 5px;
 		    height: 300px;
 		    border-width: 1px;
 			border-style: solid;
 			border-color: #FF9900;
+			border-right: 3px solid #FF9900;
+
 		}
 		
 		.mainbuttons > .button1 {order:1;}
@@ -161,12 +206,19 @@
 		.bodysection {
 			margin-left: 100px
 			background-color: #FF9900;
+			width: 1671px;
 		}
 		.body1 {
 			background-color: #FF9900;
-			height: 14px;
+			height: 48px;
+			width: 1671px;
+			height: 150px;
 		}
 		.body2 {
 			background-color: #FFFFFF;
 			color: #FF9900;
+			width: 1671px;
+			height: 150px;
 		}
+		.bodysection > .body1 {order:1;}
+		.bodysection > .body2 {order:2;}
