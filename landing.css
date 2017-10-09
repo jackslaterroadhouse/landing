@@ -56,12 +56,12 @@
 		h4 {
 			font-family: "Lato", "Helvetica", Arial, sans-serif;
 			font-size: 18px;
-			color: #FFFFFF;
+			color: #FF9900;
 		}
 		h5 {
 			font-family: "Lato", "Helvetica", Arial, sans-serif;
 			font-size: 12px;
-			color: #FFFFFF;
+			color: #FF9900;
 		}
 		.headsection {
 			margin-left: 100px;
@@ -96,6 +96,8 @@
 			border-left: 3px solid #FF9900;
 			border-right: 3px solid #FF9900;
 			width: 1663px;
+			color: #FF9900;
+
 		}
 		.head4 {
 			top: 900px;
@@ -121,15 +123,21 @@
 		#vidwin1 {
 			width: 430px;
 			height: 450px;
+			color: #FF9900;
+			text-align: center;
+
 		}
 		#vidwin2 {
 			width: 802px;
 			height: 450px;
-
+			color: #FF9900;
+			text-align: center;
 		}
 		#vidwin3 {
 			width: 431px;
 			height: 450px;
+			color: #FF9900;
+			text-align: center;
 
 		}
 		.navbar a {
